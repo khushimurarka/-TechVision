@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(camara-trafico-1024x743.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:transparent;
+    position: relative;
+    float: right;
+    z-index: 1;
+    width: 420px;
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid #fffafa;
+    border-radius: 20px;
+    box-shadow: px 0px 110px 32px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #fffafa;
+    font-size: 45px;
+}
+
+form {
+    text-align: left;
+    color: aliceblue;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f4f0f0;
+    border-radius: 5px;
+    background: #ded8d8;
+}
+
+button {
+    background-color: #1120f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #a490ff;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4c00ff;
+}
